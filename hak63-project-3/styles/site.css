@@ -1,0 +1,271 @@
+
+h1{
+    font-size: 50pt;
+    font-family: "Arial Black", sans-serif;
+    margin-bottom: 10px;
+
+    color:#0b127a;
+}
+
+body{
+    font-family: "Verdana", sans-serif;
+    background-color: #ffffa2;
+    color: #050047;
+    margin-bottom: 100px;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.navbar nav li {
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    margin: 0px;
+    font-size: 17px;
+    padding: 6px;
+    border: 2px solid #050047;
+    background-color: #8de2f7;
+}
+
+
+.navbar nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar nav li:hover{
+    background-color: #0b127a;
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+hr{
+    border-bottom: 10px dotted #8f8f8f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 3px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.gallery-style{
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-img-style figcaption{
+    font-size: 6pt;
+    color: gray;
+}
+
+.header-img-style figcaption a{
+    color: gray;
+}
+
+.header-img-style{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.indiv_img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.description-style{
+    margin-left: 25px;
+    margin-bottom: 50px;
+    font-size: 20pt;
+    font-style: italic;
+}
+
+.h2-style {
+    margin-bottom: 0px;
+    font-size: 20pt;
+    margin-left: 25px;
+    margin-top: 3px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.tags-list-style{
+    display: inline-block;
+    margin-top: 0px;
+    list-style-type: none;
+    border: solid #8de2f7 ;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.h2-clicktag-style{
+    margin-left: 30px;
+}
+
+h2{
+    margin-left: 10px;
+    margin-bottom: 3px;
+
+
+}
+
+.tags-page-list a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.tags-page-list{
+    display: inline-block;
+    list-style-type: none;
+    border: solid #8de2f7 ;
+    margin: 10px;
+    padding: 5px;
+}
+
+.tags-page-list:hover{
+    background-color: white;
+    font-weight: bold;
+
+}
+
+.add-tag-form{
+    margin-left: 25px;
+}
+
+.add-tag-h2{
+    font-size: 15pt;
+    margin-left: 25px;
+    margin-bottom: 4px;
+    margin-top: 35px;
+
+}
+
+.add-tag-submit{
+    font-weight: bold;
+    color: #0b127a;
+    font-size: 10pt;
+    border-radius: 12px;
+    background-color: #8de2f7;
+}
+
+.input-style{
+    width: 200px;
+}
+
+.confirmation-style{
+    margin-left: 25px;
+}
+
+.back-tag-button{
+    margin-left: 35px;
+    font-size: 15pt;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 0px;
+    background-color:  #8de2f7;
+    color: #0b127a;
+}
+
+.back-tag-form{
+    margin-top: 3px;
+}
+
+.delete-tag-submit{
+    font-weight: bold;
+    color: #0b127a;
+    font-size: 10pt;
+    border-radius: 12px;
+    background-color: white;
+}
+
+
+.upload-button{
+    margin-left: 195px;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color:  #8de2f7;
+    color: #0b127a;
+    width: 100px;
+}
+
+.upload-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    font-size: 13pt;
+}
+
+.upload-label{
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+.upload-confirmation{
+    margin-top: 3px;
+    margin-left: 35px;
+}
+
+.delete-photo-style button{
+    margin-left: 120px;
+
+    font-size: 12pt;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 50px;
+    background-color:  #8de2f7;
+    color: #0b127a;
+    width: 150px;
+    font-weight: bold;
+
+}
+
+.delete-photo-confirm{
+    margin-left: 15px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+.index-h2{
+    text-align: center;
+    margin-left: 0px;
+}
