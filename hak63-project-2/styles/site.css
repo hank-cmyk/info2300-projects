@@ -1,0 +1,228 @@
+
+h1{
+    font-family: "Trattatello", fantasy;
+    font-size: 55pt;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    color: #ffcc00;
+
+}
+
+h2{
+    padding: 0px;
+    font-size: 25pt;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: #ffcc00;
+}
+
+body{
+    font-family: "Andale Mono", monospace;
+    font-size: 15pt;
+    background-color:  #663300;
+    color:#009900;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+figure{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 25px;
+
+}
+
+figcaption{
+    margin-top: 0px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+figcaption, figcaption a{
+    color:black;
+}
+
+.text-style{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+}
+
+
+hr{
+    border-top: 5px dotted #009900;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+figure{
+    margin-left: 15px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+th{
+    font-style: italic;
+    color: #ccffcc;
+    margin-bottom: 10px;
+
+}
+
+table, th, td {
+    border: 1px solid #009999;
+    margin: 30px;
+
+}
+
+td{
+    padding: 0px;
+    text-align: left;
+    color:#33cc33;
+}
+
+table{
+    margin-top: 20px;
+    margin-left:20px;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+th, td{
+    padding: 10px;
+
+}
+
+.headerimg-container figure{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.header-style{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+.sorry-style{
+    color: #ffcc00;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.sprite-style{
+    margin: 0px;
+    margin-top: 16px;
+    margin-left: 2px;
+}
+
+.back-style, .add-style, .search-button-style, .submit-style, .add-index-style{
+    font-size: 12pt;
+    border-radius: 12px;
+    color:  #663300;
+    background-color:#009999;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-button-style{
+    margin-left: 10px;
+}
+
+.back-style{
+    margin-top: 7px;
+}
+
+.add-style{
+    margin-top: 10px;
+}
+
+.title-style{
+    margin-bottom: 8px;
+}
+
+.add-input-style{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-input-style .text-style, .input-index-style{
+    width: 400px;
+    height: 25px;
+    margin: 7px;
+}
+
+.submit-style{
+    margin-top: 15px;
+    margin-left: 265px;
+    margin-bottom: 100px;
+}
+
+.hidden{
+    display: none;
+}
+
+.feedback-style{
+    color: #ff695e;
+    font-size: 12pt;
+    margin-bottom: 0px;
+    margin-left: 7px;
+    margin-top: 0px;
+}
+
+label{
+    margin-left: 7pt;
+    margin-bottom: 0px;
+    color:#ffcc00;
+}
+
+.input-style{
+    margin-bottom: 10px;
+}
+
+.input-index-style{
+    width: 98%;
+    font-size: 12pt;
+}
+
+.label-index-style{
+    margin-top: 10px;
+    font-size: 12pt;
+    margin-left: 5px;
+}
+
+.add-index-style{
+    margin-left: 10px;
+    margin-top: 26px;
+}
+
+.search-button-style{
+    height: 50px;
+    margin-top: 20px;
+}
